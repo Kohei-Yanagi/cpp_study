@@ -1,0 +1,8 @@
+cmake_minimum_required( VERSION 3.20 )
+project( visual000 LANGUAGES CXX ) #${PROJECT_NAME}で取得可能
+set( CMAKE_CXX_STANDARD 23 ) #C++23を使用
+set( CMAKE_CXX_STANDARD_REQUIRED ON ) #C++23対応のコンパイラを使用
+set( CMAKE_CXX_EXTENSIONS OFF ) #純粋なISO準拠のC++23
+set( CMAKE_EXPORT_COMPILE_COMMANDS ON ) #compile_commands.jsonファイルを生成
+#src/main.cppをコンパイルし実行ファイルvisual000.exeが作成される
+add_executable( visual000 src/main.cpp )
