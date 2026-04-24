@@ -3,6 +3,7 @@
 #include<numbers>
 using namespace std;
 int main(int argc, char** argv) {
-	const int n = 100;
-	n = 200;//定数nは変更できないためエラー
+	int x; 
+	cin >> x;
+	cout << x << "\n";
 }
