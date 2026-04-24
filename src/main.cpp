@@ -3,5 +3,6 @@
 #include<numbers>
 using namespace std;
 int main(int argc, char** argv) {
-	cout << "Hello";
+	cout << "Hello\n" << 10 + 5 << "\n";
+	return 0;
 }
