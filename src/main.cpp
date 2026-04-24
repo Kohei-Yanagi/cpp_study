@@ -3,6 +3,7 @@
 #include<numbers>
 using namespace std;
 int main(int argc, char** argv) {
-	cout << "Hello\n" << 10 + 5 << "\n";
+	double pi = 3.14;
+	cout << (int)pi << "\n";
 	return 0;
 }
