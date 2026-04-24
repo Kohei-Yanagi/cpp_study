@@ -3,7 +3,6 @@
 #include<numbers>
 using namespace std;
 int main(int argc, char** argv) {
-	double pi = 3.14;
-	cout << (int)pi << "\n";
-	return 0;
+	const int n = 100;
+	n = 200;//定数nは変更できないためエラー
 }
