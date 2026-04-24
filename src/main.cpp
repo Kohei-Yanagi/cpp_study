@@ -1,6 +1,7 @@
 #include<iostream>//プログラムの読み込み
 #include<print>
 #include<numbers>
+using namespace std;
 int main(int argc, char** argv) {
-	std::cout << "Hello" << std::endl;
+	cout << "Hello";
 }
