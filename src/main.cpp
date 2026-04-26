@@ -4,14 +4,16 @@
 #include<numbers>
 using namespace std;
 
-void hello();
+void nibai(int a) {
+	cout << a * 2;
+}
 
 int main(int argc, char** argv) {
-	hello();
+	
+	int num = 10;
+	
+	nibai(num);
 
 	return 0;
 }
 
-void hello() {
-	cout << "Hello, World!";
-}
