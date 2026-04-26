@@ -4,15 +4,19 @@
 #include<numbers>
 using namespace std;
 
-void nibai(int a) {
-	cout << a * 2;
+void calculate(int x, int y) {
+	int total = x + y;
+	cout << "You have " << total << " fruits in total." << endl;
 }
-
 int main(int argc, char** argv) {
 	
-	int num = 10;
-	
-	nibai(num);
+	int apple, orange;
+
+	cout << "How many apples do you have? ";
+	cin >> apple;
+	cout << "How many oranges do you have? ";
+	cin >> orange;
+	calculate(apple, orange);
 
 	return 0;
 }
