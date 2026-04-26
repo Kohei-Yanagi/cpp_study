@@ -6,24 +6,21 @@
 
 using namespace std;
 
+void average(int x[]) {
+
+	int sum = 0;
+
+	for (int i = 0; i < 3; i++) {
+		sum += x[i];
+	}
+
+	cout << "average is " << sum / 3 << "\n";
+}
 
 int main(int argc, char** argv) {
 	
-	int num ;
-	vector<int> array;
-
-	cout << "Enter the number of elements: ";
-	cin >> num;
-
-	array.resize(num);
-
-	for (int i = 0; i < num; i++) {
-		cin >> array[i];
-	}
-
-	for (int i = 0; i < num; i++) {
-		cout << i << "times" << array[i] << "\n";
-	}
+	int array[3] = { 78, 94, 64 };
+	average(array);
 
 	return 0;
 }
