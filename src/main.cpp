@@ -4,12 +4,14 @@
 #include<numbers>
 using namespace std;
 
-void hello() {
-	cout << "Hello, World!";
-}
+void hello();
 
 int main(int argc, char** argv) {
 	hello();
 
 	return 0;
+}
+
+void hello() {
+	cout << "Hello, World!";
 }
