@@ -4,26 +4,14 @@
 #include<numbers>
 using namespace std;
 
-int calculate(int a) {
-	int total = a * 200;
-	return total;
-	
-}
+
 int main(int argc, char** argv) {
 	
-	int apple;
+	int array[] = { 1,2,3,4,5 };
 
-	cout << "How many apples do you have? ";
-	cin >> apple;
-	int judge = calculate(apple);
-
-	if (judge > 2000) {
-		cout << judge << "yen " << "Over your budget.";
+	for (int i = 0; i < 5; i++) {
+		cout << array[i] << endl;
 	}
-	else {
-				cout << judge << "yen" << "Within your budget.";
-	}
-
 
 	return 0;
 }
