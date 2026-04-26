@@ -3,21 +3,13 @@
 #include<numbers>
 using namespace std;
 int main(int argc, char** argv) {
-	int num;
-	cout << "number:";
-	cin >> num; 
-	
-	switch(num) {
-		case 1:
-			cout << "john";
-			break;
-		case 2:
-			cout << "michael";
-			break;
-		default:
-			cout << "unknown";
-			break;
+	for (int i = 0; i < 5; i++) {
+		cout << i << "times : message\n";
 	}
+
+
+	
+	
 
 	return 0;
 }
