@@ -3,16 +3,13 @@
 #include<print>
 #include<numbers>
 using namespace std;
-int main(int argc, char** argv) {
-	
-	int num = 10;
-	do {
-		cout << "message\n";
-	} while (num < 5);
 
-	while (num < 5) {
-		cout << "message2";
-	}
+void hello() {
+	cout << "Hello, World!";
+}
+
+int main(int argc, char** argv) {
+	hello();
 
 	return 0;
 }
