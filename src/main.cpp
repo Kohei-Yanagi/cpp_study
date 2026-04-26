@@ -4,19 +4,26 @@
 #include<numbers>
 using namespace std;
 
-void calculate(int x, int y) {
-	int total = x + y;
-	cout << "You have " << total << " fruits in total." << endl;
+int calculate(int a) {
+	int total = a * 200;
+	return total;
+	
 }
 int main(int argc, char** argv) {
 	
-	int apple, orange;
+	int apple;
 
 	cout << "How many apples do you have? ";
 	cin >> apple;
-	cout << "How many oranges do you have? ";
-	cin >> orange;
-	calculate(apple, orange);
+	int judge = calculate(apple);
+
+	if (judge > 2000) {
+		cout << judge << "yen " << "Over your budget.";
+	}
+	else {
+				cout << judge << "yen" << "Within your budget.";
+	}
+
 
 	return 0;
 }
