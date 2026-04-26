@@ -2,15 +2,27 @@
 #include<iomanip>//文字の幅を取る
 #include<print>
 #include<numbers>
+#include<vector>
+
 using namespace std;
 
 
 int main(int argc, char** argv) {
 	
-	int array[] = { 1,2,3,4,5 };
+	int num ;
+	vector<int> array;
 
-	for (int i = 0; i < 5; i++) {
-		cout << array[i] << endl;
+	cout << "Enter the number of elements: ";
+	cin >> num;
+
+	array.resize(num);
+
+	for (int i = 0; i < num; i++) {
+		cin >> array[i];
+	}
+
+	for (int i = 0; i < num; i++) {
+		cout << i << "times" << array[i] << "\n";
 	}
 
 	return 0;
