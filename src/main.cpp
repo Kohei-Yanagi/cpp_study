@@ -7,13 +7,17 @@ int main(int argc, char** argv) {
 	cout << "number:";
 	cin >> num; 
 	
-	if (num == 10)
-		cout << "true";
-	else if (num < 10)
-		cout << "small";
-	else if (num > 10)
-		cout << "big";
-	
+	switch(num) {
+		case 1:
+			cout << "john";
+			break;
+		case 2:
+			cout << "michael";
+			break;
+		default:
+			cout << "unknown";
+			break;
+	}
 
 	return 0;
 }
