@@ -5,14 +5,14 @@
 using namespace std;
 int main(int argc, char** argv) {
 	
-	int num = 1;
-	int count = 0;
+	int num = 10;
+	do {
+		cout << "message\n";
+	} while (num < 5);
 
-	while (num < 1000) {
-		num *= 2;
-		count++;
-		cout << count << "times:" << num << "\n";
+	while (num < 5) {
+		cout << "message2";
 	}
-	cout << count << "times are over 1000";
+
 	return 0;
 }
