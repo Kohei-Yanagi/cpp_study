@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/kyng7/Documents/cpp_study/report001/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx86\\x86\\cl.exe  /nologo /TP -IC:\\Users\\kyng7\\Documents\\cpp_study\\report001\\image /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi /utf-8 /FoCMakeFiles\\report001.dir\\src\\main.cpp.obj /FdCMakeFiles\\report001.dir\\ /FS -c C:\\Users\\kyng7\\Documents\\cpp_study\\report001\\src\\main.cpp",
+  "file": "C:/Users/kyng7/Documents/cpp_study/report001/src/main.cpp",
+  "output": "C:/Users/kyng7/Documents/cpp_study/report001/build/CMakeFiles/report001.dir/src/main.cpp.obj"
+}
+]
